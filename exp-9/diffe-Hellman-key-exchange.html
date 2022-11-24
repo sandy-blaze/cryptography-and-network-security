@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+	<title>Diffe Hellman Key Exchange</title>
+	<style>
+		body {
+			margin-top: 150px;
+		}
+	</style>
+</head>
+
+<body>
+	<center>
+		<div>
+			<label for="P">Enter 'P': </label>
+			<input type="number" id="P" name="G" />
+		</div>
+		<br />
+		<div>
+			<label for="G">Enter 'G': </label>
+			<input type="number" id="G" name="P" />
+		</div>
+		<br />
+		<div>
+			<label for="a">Enter 'a': </label>
+			<input type="number" id="a" name="a" />
+		</div>
+		<br />
+		<div>
+			<label for="b">Enter 'b': </label>
+			<input type="number" id="b" name="b" />
+		</div>
+		<br />
+		<button type="button" onclick="displayKeys()">Submit</button>
+		<br /><br />
+		<div>
+			<p id="key-1"></p>
+			<p id="key-2"></p>
+		</div>
+	</center>
+	<script src="./diffe-Hellman-key-exchange.js"></script>
+</body>
+
+</html>
